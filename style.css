@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #292c3d;
+  font-family: roboto;
+}
+
+.container{
+  width: 80%;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+}
+
+header .logo{
+  font-family: 'Redressed', cursive;
+  color: whitesmoke;
+  font-size: 32px;
+  margin-top: 10px;
+}
+
+header nav ul{
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav ul li{
+  list-style: none;
+  margin: 10px 5px;
+}
+
+header nav ul li a{
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+header nav ul li a:hover{
+  color: white;
+}
+
+header nav ul li:nth-child(4) a{
+  background: #4964eb;
+  border-radius: 5px;
+}
+
+main h1{
+color: white;
+text-align: center;
+font-size: 42px;
+margin-top: 10px;
+}
+
+main .tagline{
+  font-size: 14px;
+  text-align: center;
+  margin-top: -20px;
+  color: #ebebeb;
+}
+main section#cards{
+  width: 80%;
+  margin: 30px auto 0px auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  color: white;
+}
+
+main section#cards .card{
+  width: 40%;
+  background: #1f202c;
+  padding-bottom: 10px;
+}
+
+main section#cards .card ul li{
+  list-style: none;
+}
+
+
+main section#cards .card .head{
+  background: #4964eb;
+  color: white;
+  padding: 10px 20px ;
+  text-align: center;
+}
+
+main section#cards .card .body h2{
+  text-align: center;
+  font-size: 40px;
+}
+
+main section#cards .card .body p{
+  text-align: center;
+  margin-top: -30px;
+  color: rgb(207, 207, 207);
+}
+
+main section#cards .card .body p.price{
+  margin-top: 20px;
+}
+
+main section#cards .card .body p.price span{
+  font-size: 30px;
+  color: white;
+}
+
+main section#cards .card .body ul {
+  color: fghcf;
+}
+
+main section#cards .card .body ul li {
+  margin: 15px 0px;
+}
+
+main section#cards .card .body ul li i {
+  margin-right: 20px;
+}
+
+ main section#cards .card .foot{
+   text-align: center;
+  margin: 0 auto;
+ }
+
+ main section#cards .card .foot a{
+  background: #4964eb;
+  border-radius: 5px;
+  color: white;
+  width: 100px;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  padding: 13px 20px;
+  margin: 10px 10px;
+ }
+
+.footer{
+  color: white;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  width: 17%;
+}
+
+
+.footer .control{
+  width: 50px;
+  height: 20px;
+  background: #4964eb;
+  border-radius: 20px;
+  position: relative;
+}
+
+
+.footer .control .circle{
+width: 15px;
+height: 15px;
+position: absolute;
+border-radius: 50%;
+top: 3px;
+left: 4px;
+background: #fff;
+}
+
